@@ -1,0 +1,66 @@
+body{
+
+				background: url("download.jpeg") ;
+				background-size: cover;
+				background-repeat: no-repeat ;		
+}
+.signUp{
+				background-color:rgba( 44,62,80,0.7);
+				padding: 40px;
+				width: 250px;
+				margin-top: 90px; 
+				margin-left: 180;
+				margin: 0 auto;
+}
+form{
+				text-align:center;
+				width: 240px;
+				margin-top:-10px;
+				
+}
+input{
+				width: 240px;
+				text-align: center;
+				background: transparent;
+				border:none;
+				border-bottom: 2px solid white;
+				font-size: 18px ; 
+				font-weight:200px;
+				padding: 10px 0;
+				transition:border 0.5s;
+				outline:none;
+				height:35px;	
+				color:white;		
+}
+
+button {
+				border:none;
+				width:190px;
+				padding:10px 0;
+				font-size:20px;
+				line-height:25px;	
+				border-radius:25px;
+				cursor:pointer;		
+}
+button:hover {
+				background: black;
+				color:white;
+}
+h2{
+				color:gold;
+}
+a{
+				color:gold;
+				text-decoration:none;
+}
+a:hover {
+       color:cyan;            
+}
+.signin {
+       color:white;				
+}
+
+::placeholder{
+				color: whitesmoke;
+				opacity:0.6;
+}
